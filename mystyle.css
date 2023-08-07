@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: lightcyan;
+}
+nav{
+	display: flex;
+	border: 1px soli black;
+}
+
+nav ul{
+	margin-left: 300px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-top: 70px;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	margin-left: 50px;
+	color: lightslategrey;
+	font-size: 20px;
+}
+
+nav ul li a:hover{
+	color: blue;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+	margin-top: 30px;
+	border-radius: 40px;
+}
+
+div{
+	margin-top: 200px;
+	margin-left: 40%;
+}
+
+#hire{
+	margin-top: 200px;
+	margin-left: 41%;
+}
+
+#port{
+	margin-top: 200px;
+	margin-left: 45%;
+}
+
+#pic{
+	width: 500px;
+	height: 580px;
+	margin-top: -450px;
+	margin-left: 350px;
+	border-radius: 10px;
+}
+
+
+
+#data h,p{
+	margin-left: -500px;
+}
+
+#data h{
+	font-size: 25px;
+}
+
+#data h b{
+	background: linear-gradient(to right, lightcoral, skyblue);
+	border-radius: 5px;
+	padding-left: 5px;
+}
+
+#data h b a{
+	background: linear-gradient(to right, lightgreen, lightsteelblue);
+	border-radius: 5px;
+	padding-right: 5px;
+}
+
+
+
